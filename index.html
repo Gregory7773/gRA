@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="win_container">
+		<div class="game_window">
+			<div class="player0-window active">
+				
+				<div class="player_name" id="player_name0">Player 1</div>
+				<div class="score-0" id="score0">0</div>
+				<div class="current_score">
+					<div class="current_sub">Current</div>
+					<div class="current_num_0" id="currNum0">0</div>
+				</div>
+				<div class="dot0" id="dot0"></div>
+			
+
+
+			</div>
+			<div class="player1-window ">
+				<div class="player_name" id="player_name1">Player 2</div>
+				<div class="score-1" id="score1">0</div>
+				<div class="current_score">
+					<div class="current_sub">Current</div>
+					<div class="current_num_1" id="currNum1">0</div>
+				</div>
+				<div class="dot1" id="dot1"></div>
+				
+			</div>
+				<button class="new_game_butt" id="newGame"><i class="ion-ios-plus-outline"></i>NEW GAME</button>
+				<button class="roll_dice_butt" id="rollDiceButt"><i class="ion-ios-loop"></i>ROLL DICE</button>
+				<button class="hold_butt" id="holdButt"><i class="ion-ios-download-outline"></i>HOLD</button>
+				<div id="input-header">Wpisz maksymalny wynik</div>
+				<img class="dice1" id="dice1" src="images/dice-1.png">
+				<img class="dice2" id="dice2" src="images/dice-1.png">
+				<input id="max-score" type="text">
+				<input id="submit-max-score" type="submit">
+
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
